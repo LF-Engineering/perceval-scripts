@@ -30,3 +30,7 @@ To get `dockerhub` data for the Hyperledger project run: `./hyperledger_dockerhu
 
 To get data for Hyperledger jenkins do [TODO].
 
+
+# Other
+
+Other historical scripts are in `perceval` and `elk` folders, more perceval documentation is [here](https://buildmedia.readthedocs.org/media/pdf/perceval/latest/perceval.pdf).

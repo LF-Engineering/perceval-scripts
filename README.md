@@ -38,6 +38,8 @@ To get Jenkins data run: `./jenkins.sh`.
 To get data from meetups:
 
 - register in meetup, for example go [here](https://www.meetup.com/pro/hyperledger) and sing up.
+- Create an OAuth token [TODO](https://www.meetup.com/meetup_api/auth/#oauth2).
+- For now we can try accessing without token but this will hit raate limits, I've requested more informatiuons [here](https://github.com/chaoss/grimoirelab-perceval/issues/541).
 
 
 # Other

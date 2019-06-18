@@ -30,6 +30,8 @@ To get `dockerhub` data for the Hyperledger project run: `./hyperledger_dockerhu
 
 To get data for Hyperledger jenkins do [TODO].
 
+To get Jenkins data run: `./jenkins.sh`.
+
 
 # Other
 

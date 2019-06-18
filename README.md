@@ -1,9 +1,11 @@
 # perceval-scripts
 Scripts to get data for various datasources.
 
+
 # groups.io
 
 You neeed to:
+
 - Go to [Hyperledger groups.io](https://lists.hyperledger.org/g/main) or [Zephyr groups.io](https://lists.zephyrproject.org/g/main) or any other groups.io page.
 - Create account, remember `<email>` and `<password>`.
 - Log in to that account, subscribe to `hyperledger` or `zephyrproject` or any other groups.io page.
@@ -17,3 +19,14 @@ You neeed to:
 Caveats:
 
 - The final approach should have all this data stored in GrimoireLab config (whatever it is) - probably in Kubernetes secrets.
+
+
+# Docker
+
+To get `dockerhub` data for the Hyperledger project run: `./hyperledger_dockerhub.sh`.
+
+
+# Jenkins
+
+To get data for Hyperledger jenkins do [TODO].
+

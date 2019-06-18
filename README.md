@@ -33,6 +33,13 @@ To get data for Hyperledger jenkins do [TODO].
 To get Jenkins data run: `./jenkins.sh`.
 
 
+# Meetups
+
+To get data from meetups:
+
+- register in meetup, for example go [here](https://www.meetup.com/pro/hyperledger) and sing up.
+
+
 # Other
 
 Other historical scripts are in `perceval` and `elk` folders, more perceval documentation is [here](https://buildmedia.readthedocs.org/media/pdf/perceval/latest/perceval.pdf).

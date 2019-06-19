@@ -56,6 +56,10 @@ To get data from meetups:
 - Create an OAuth token [TODO](https://www.meetup.com/meetup_api/auth/#oauth2).
 - For now we can try accessing without token but this will hit raate limits, I've requested more informatiuons [here](https://github.com/chaoss/grimoirelab-perceval/issues/541).
 
+Caveats:
+- New meetup users cannot generate API tokens anymore, they're deprecated.
+- If you have an old meetup account you can still use old API key, just put it in `/etc/meetup/token` file.
+
 
 # Bugzilla
 

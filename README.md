@@ -50,6 +50,11 @@ You need to provide `/etc/bugzilla/login` and `/etc/bugzilla/pwd` files (user an
 
 Run: `./bugzilla.sh` to get data.
 
+
+# Git
+
+Run `./git.sh` script to get git data, note that this script doesn't have all possible repos listed - this is just an example.
+
 # Other
 
 Other historical scripts are in `perceval` and `elk` folders, more perceval documentation is [here](https://buildmedia.readthedocs.org/media/pdf/perceval/latest/perceval.pdf).

@@ -45,3 +45,8 @@ To get data from meetups:
 # Other
 
 Other historical scripts are in `perceval` and `elk` folders, more perceval documentation is [here](https://buildmedia.readthedocs.org/media/pdf/perceval/latest/perceval.pdf).
+
+
+# Devstats
+
+New DevStats Hyperledger page is [here](http://a2bbd9e20925911e99f1b066ec8f6d81-384019263.us-west-2.elb.amazonaws.com), please not that this is a bare Grafana without SSL, meant to be embedded in some LFDA panel in the future.

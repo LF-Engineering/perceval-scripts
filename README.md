@@ -1,4 +1,5 @@
 # perceval-scripts
+
 Scripts to get data for various datasources.
 
 
@@ -51,7 +52,7 @@ To get Jenkins data run: `./jenkins.sh`.
 
 To get data from meetups:
 
-- register in meetup, for example go [here](https://www.meetup.com/pro/hyperledger) and sing up.
+- Register in meetup, for example go [here](https://www.meetup.com/pro/hyperledger) and sing up.
 - Create an OAuth token [TODO](https://www.meetup.com/meetup_api/auth/#oauth2).
 - For now we can try accessing without token but this will hit raate limits, I've requested more informatiuons [here](https://github.com/chaoss/grimoirelab-perceval/issues/541).
 
@@ -68,6 +69,12 @@ Run: `./bugzilla.sh` to get data.
 # Git
 
 Run `./git.sh` script to get git data, note that this script doesn't have all possible repos listed - this is just an example.
+
+
+# Rocket.Chat
+
+There is no Rocket.Chat support in Perceval, if we need this, we have to implement this and upstream, see [here](https://github.com/chaoss/grimoirelab-perceval/issues/543).
+
 
 # Other
 

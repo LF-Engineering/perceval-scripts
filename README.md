@@ -2,6 +2,20 @@
 Scripts to get data for various datasources.
 
 
+# IRC
+
+To be able toget data from any IRC channel we need to:
+
+- Install supybot on that channel, which requires:
+  - Dockerizing supybot to be able to run it on Kubernetes.
+  - Run `supybot-wizard` somehow to generate bot config file, that will be used by the doc ker image.
+  - Configure non-root user to run the bot (docker image must run as non-root, supybot forbids root).
+  - Store supybot logs into some PV to make it available for the Perceval IRC backend pod
+- Create Perceval IRC datasource pod that will have access to bot logs to analyze them
+- List all IRC channels we need and subscribe supybot to all of them (as a part of creating config files)
+- Finally figure out how to analyze logs using `perceval supybod` command.
+
+
 # groups.io
 
 You neeed to:

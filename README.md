@@ -80,6 +80,11 @@ Run `./git.sh` script to get git data, note that this script doesn't have all po
 There is no Rocket.Chat support in Perceval, if we need this, we have to implement this and upstream, see [here](https://github.com/chaoss/grimoirelab-perceval/issues/543).
 
 
+# Pipermail
+
+Run `./pipermail.sh` script, please note that this script is only an example with a single source. The final approach must have all pipermail sources from LF Jira/Confluence.
+
+
 # Other
 
 Other historical scripts are in `perceval` and `elk` folders, more perceval documentation is [here](https://buildmedia.readthedocs.org/media/pdf/perceval/latest/perceval.pdf).

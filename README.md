@@ -42,6 +42,14 @@ To get data from meetups:
 - For now we can try accessing without token but this will hit raate limits, I've requested more informatiuons [here](https://github.com/chaoss/grimoirelab-perceval/issues/541).
 
 
+# Bugzilla
+
+Yocto project uses bugzilla 4.4.X. there are two perceval backends for Bugzilla: `bugzilla` (old one) and `bugzillarest` using a lot faster RES API, but it requires Bugzilla 5+. So we can only use `bugzilla` for the Yocto project.
+
+You need to provide `/etc/bugzilla/login` and `/etc/bugzilla/pwd` files (user and password) for bugzilla backed. Go to [Youct Bugzilla](https://bugzilla.yoctoproject.org) and create an account there.
+
+Run: `./bugzilla.sh` to get data.
+
 # Other
 
 Other historical scripts are in `perceval` and `elk` folders, more perceval documentation is [here](https://buildmedia.readthedocs.org/media/pdf/perceval/latest/perceval.pdf).

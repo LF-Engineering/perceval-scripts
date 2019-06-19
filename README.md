@@ -43,7 +43,7 @@ To get `dockerhub` data for the Hyperledger project run: `./hyperledger_dockerhu
 
 # Jenkins
 
-To get data for Hyperledger jenkins do [TODO].
+To get data for Hyperledger Jenkins:
 
 To get Jenkins data run: `./jenkins.sh`.
 
@@ -83,6 +83,15 @@ There is no Rocket.Chat support in Perceval, if we need this, we have to impleme
 # Pipermail
 
 Run `./pipermail.sh` script, please note that this script is only an example with a single source. The final approach must have all pipermail sources from LF Jira/Confluence.
+
+
+# Discourse
+
+Go to [EdgeX Disclosure](https://edgex.discourse.group), sign up.
+
+Create API token and save it in `/etc/discourse/token` [TODO] how.
+
+Run: `./discourse.sh`.
 
 
 # Other
